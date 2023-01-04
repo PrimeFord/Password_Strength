@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1117;
+}
+
+section {
+  height: 12rem;
+  width: 30rem;
+  color: #c9d1d9;
+  background-color: #0d1117;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 0.3rem 0rem #c1c1c1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#pass_status {
+  font-family: poppins;
+  display: none;
+}
+input {
+  font-family: monospace;
+  padding: 0.2rem 0.5rem;
+}
